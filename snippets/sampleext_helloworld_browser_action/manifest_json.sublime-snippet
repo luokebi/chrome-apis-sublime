@@ -3,7 +3,7 @@
   "manifest_version": 2,
   "name": "${1:Hello World}",
   "version": "1",
-  "permissions": ['tabs',"http://*","https://*","contextMenus"],
+  "permissions": ["tabs","http://*","https://*","contextMenus"],
   "background":{
     "page":"bg.html"
     } ,
