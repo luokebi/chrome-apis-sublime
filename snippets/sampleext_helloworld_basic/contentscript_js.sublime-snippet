@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+// contentscript.js
+    	]]></content>
+    <description>content script for Sample extension basic - hello world</description>
+</snippet>

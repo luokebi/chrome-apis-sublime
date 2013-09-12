@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="bg.js"></script>
+</head>
+<body>
+</body>
+</html>
+]]></content>
+    <description>HTML page for Sample extension browser action - hello world</description>
+</snippet>

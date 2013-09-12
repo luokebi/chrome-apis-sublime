@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+</body>
+</html>
+]]></content>
+    <description>HTML popup for Sample extension browser action - hello world</description>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[{
+  "manifest_version": 2,
+  "name": "${1:Hello World}",
+  "version": "1",
+  "permissions": ['tabs',"http://*","https://*","contextMenus"],
+  "background":{
+    "page":"bg.html"
+    } ,
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["contentscript.js"],
+    "run_at": "document_end"
+    }],
+
+    "browser_action": {
+    "default_icon": "icon19.png",
+    "default_title": "${1:Hello World}",
+    "default_popup": "popup.html"
+    },
+  
+  "minimum_chrome_version": "${3:23}"
+
+}
+]]></content>
+    <description>Manifest for Sample extension browser action - hello world</description>
+</snippet>

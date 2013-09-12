@@ -10,6 +10,12 @@
                   { "command": "new_chrome", "args":{"name": "sampleapp_helloworld"}, "caption": "Hello world"}
                 ]
             },
+            { "caption": "New Extension...", "mnemonic": "E",
+                "children": [
+                  { "command": "new_chrome", "args":{"name": "sampleext_helloworld_basic"}, "caption": "Hello world - Basic"},
+                  { "command": "new_chrome", "args":{"name": "sampleext_helloworld_browser_action"}, "caption": "Hello world - Browser action"}
+                ]
+            },
             { "caption": "-"},
             { "command": "csp_validate_files", "caption": "Validate CSP", "mnemonic": "C" },
             { "caption": "-"},
